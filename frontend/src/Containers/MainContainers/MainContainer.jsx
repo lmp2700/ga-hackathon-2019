@@ -9,7 +9,7 @@ class MainContainer extends Component {
             <div>
                 <LoginContainer />
                 <SearchContainer />
-                <h1>Main Container Here</h1>
+                <h1>Main User Container Here</h1>
                 <NavigationContainer />
             </div>
         )
