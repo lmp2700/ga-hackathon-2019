@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import MainContainer from './Containers/MainContainers/MainContainer';
-import LoginContainer from './Containers/MainContainers/LoginContainer';
-import SearchContainer from './Containers/MainContainers/SearchContainer';
 
+import LoginContainer from './Containers/MainContainers/LoginContainer';
+import MainContainer from './Containers/MainContainers/MainContainer';
+import SearchContainer from './Containers/MainContainers/SearchContainer';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={MainContainer} />
             <Route exact path="/login" component={LoginContainer} />
-            <Route exact path="/searc" component={SearchContainer} />
+            <Route exact path="/search" component={SearchContainer} />
           </Switch>
         </BrowserRouter>
       </div>
