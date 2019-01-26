@@ -13,7 +13,7 @@ class App extends Component {
             <Route exact path="/" component={MainContainer} />
             <Route exact path="/login" component={LoginContainer} />
             <Route exact path="/search" component={SearchContainer} />
-            <h1>Maint Container</h1>
+            <h1>Main Container</h1>
           </Switch>
         </BrowserRouter>
       </div>
