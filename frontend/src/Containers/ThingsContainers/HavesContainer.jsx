@@ -9,6 +9,10 @@ class HavesContainer extends Component {
     };
   }
 
+  // componentDidMount() {
+  //   this.props.getHaves()
+  // }
+
   render() {
     const haves = ["Pasta Maker", "Pitchfork", "Snowshoes", "Movie Projector"];
 
