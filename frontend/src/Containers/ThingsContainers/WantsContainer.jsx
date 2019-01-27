@@ -22,8 +22,8 @@ class WantsContainer extends Component {
     ];
 
     return (
-      <div>
-        <h1>Borrowing</h1>
+      <div className="box lists">
+        <label className="title">Borrowing</label>
         <ul>
           {wants.map((value, index) => {
             return <ThingContainer value={value} index={index} />;
