@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ThingContainer from "./ThingContainer";
 
 class HavesContainer extends Component {
   constructor() {
@@ -8,6 +9,10 @@ class HavesContainer extends Component {
     };
   }
 
+  // componentDidMount() {
+  //   this.props.getHaves()
+  // }
+
   render() {
     const haves = ["Pasta Maker", "Pitchfork", "Snowshoes", "Movie Projector"];
 
@@ -16,7 +21,7 @@ class HavesContainer extends Component {
         <label className="title">Lending</label>
         <ul>
           {haves.map((value, index) => {
-            return <li key={index}>{value}</li>;
+            return <ThingContainer value={value} index={index} />;
           })}
         </ul>
       </div>
