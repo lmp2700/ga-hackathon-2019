@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import LoginContainer from "./LoginContainer";
-import SearchContainer from "./SearchContainer";
 import NavigationContainer from "./NavigationContainer";
 import HavesContainer from "../ThingsContainers/HavesContainer";
 import WantsContainer from "../ThingsContainers/WantsContainer";
