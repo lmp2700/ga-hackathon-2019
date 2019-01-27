@@ -14,13 +14,14 @@ class UserEditContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="box user">
         <img
           src="https://png.pngtree.com/svg/20161027/service_default_avatar_182956.png"
           alt="Default user avatar"
           style={imageSize}
         />
-        <h2>Court</h2>
+        <label className="title">Court</label>
+        <hr />
       </div>
     );
   }
