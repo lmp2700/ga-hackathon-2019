@@ -11,9 +11,7 @@ const Schema = mongoose.Schema;
 
 //Create Wants Schema
 const WantsSchema = new WantsSchema({
-  text: {
-    type: String
-  }
+  text: []
 })
 
 module.exports = Wants = mongoose.model("wants", WantsSchema)

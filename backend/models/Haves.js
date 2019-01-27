@@ -11,9 +11,7 @@ const Schema = mongoose.Schema;
 
 //Create Haves Schema
 const HavesSchema = new HavesSchema({
-  text: {
-    type: String
-  }
+  text: []
 })
 
 module.exports = Haves = mongoose.model("haves", HavesSchema)
