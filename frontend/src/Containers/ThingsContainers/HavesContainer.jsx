@@ -12,8 +12,8 @@ class HavesContainer extends Component {
     const haves = ["Pasta Maker", "Pitchfork", "Snowshoes", "Movie Projector"];
 
     return (
-      <div>
-        <h1>Lending</h1>
+      <div className="box lists">
+        <label className="title">Lending</label>
         <ul>
           {haves.map((value, index) => {
             return <li key={index}>{value}</li>;

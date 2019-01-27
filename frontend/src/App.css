@@ -1,32 +1,67 @@
-.App {
-  text-align: center;
+* {
+  background-color: #FFF4E0;
+  color: #393E46;
+  font-family: "TeluguSangamMN";
+  font-size: 18px;
+  margin: 10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: minmax(5em, auto);
+  grid-template-areas:
+  ". . header . ."
+  ". main main main sidebar ."
+  ". . footer footer . .";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  border: #F8B500 5px solid;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  grid-area: main;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-family: "Noteworthy-Bold";
+  font-size: 24px;
+}
+
+.user {
+  grid-area: header;
+  display: center;
+}
+
+.chat {
+  grid-area: sidebar;
+  position: relative;
+}
+
+.navigation {
+  grid-area: footer;
+}
+
+.navigation ul {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr 100px;
+  grid-template-rows: 10em;
+  list-style-type: none
+}
+
+.lists ul {
+  list-style-type: none;
+}
+
+a:hover {
+  color: #00ADB5;
+}
+
+a:active {
+  color: #FC3C3C;
 }

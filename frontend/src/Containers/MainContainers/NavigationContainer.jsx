@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class NavigationContainer extends Component {
     render() {
         return (
-            <div>
+            <div className="box navigation">
                 <ul>
-                    <a href="#">Home</a> &nbsp;
-                    <a href="#">Search</a> &nbsp;
-                    <a href="#">Chat</a> &nbsp;
-                    <a href="#">Friends</a>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Search</a></li>
+                    <li><a href="/">Chat</a></li>
+                    <li><a href="/">Friends</a></li>
                 </ul>
             </div>
         )
