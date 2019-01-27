@@ -6,7 +6,7 @@ const history = createBrowserHistory();
 const googleResponse = response => {
   if (response.error === "popup_closed_by_user") {
     history.push("/profile");
-    console.log("location", history.location);
+    window.location.reload();
   }
   //   console.log(response);
 };
