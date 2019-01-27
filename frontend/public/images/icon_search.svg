@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M17.46,28.45 C11.17,28.45 6.071,23.44 6.071,17.25 C6.071,11.06 11.17,6.04 17.46,6.04 C23.75,6.04 28.85,11.06 28.85,17.25 C28.85,23.44 23.75,28.45 17.46,28.45 L17.46,28.45 Z M35.688,34.25 L27.429,26.12 C29.591,23.77 30.92,20.67 30.92,17.25 C30.92,9.93 24.894,4 17.46,4 C10.026,4 4,9.93 4,17.25 C4,24.56 10.026,30.49 17.46,30.49 C20.672,30.49 23.618,29.38 25.932,27.53 L34.224,35.69 C34.629,36.09 35.284,36.09 35.688,35.69 C36.093,35.3 36.093,34.65 35.688,34.25 L35.688,34.25 Z" id="icon_search" fill="#FFF4E0"></path>
+    </g>
+</svg>
