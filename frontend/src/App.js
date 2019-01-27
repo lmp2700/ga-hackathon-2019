@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import LoginContainer from "./Containers/MainContainers/LoginContainer";
@@ -8,7 +9,7 @@ import SearchContainer from "./Containers/MainContainers/SearchContainer";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="wrapper">
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={LoginContainer} />
