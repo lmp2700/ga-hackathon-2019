@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -7,14 +8,15 @@ import SearchContainer from './Containers/MainContainers/SearchContainer';
 import FriendsContainer from './Containers/UserContainers/FriendsList';
 import ChatBox from './Containers/ChatContainer/ChatContainer'
 
+
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={MainContainer} />
-            <Route exact path="/login" component={LoginContainer} />
+            <Route exact path="/" component={LoginContainer} />
+            <Route exact path="/profile" component={MainContainer} />
             <Route exact path="/search" component={SearchContainer} />
             <Route exact path="/friendslist" component={FriendsContainer} />
             <Route exact path="/chat" component={ChatBox} />

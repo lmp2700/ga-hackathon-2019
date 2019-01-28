@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ThingContainer from "./ThingContainer";
 
 class WantsContainer extends Component {
   constructor() {
@@ -21,6 +22,7 @@ class WantsContainer extends Component {
     ];
 
     return (
+<<<<<<< HEAD
       <main>
         <div className="box lists">
           <label className="title">Borrowing</label>
@@ -38,6 +40,16 @@ class WantsContainer extends Component {
           </div>
         </div>
       </main>
+=======
+      <div className="box lists">
+        <label className="title">Borrowing</label>
+        <ul>
+          {wants.map((value, index) => {
+            return <ThingContainer value={value} index={index} />;
+          })}
+        </ul>
+      </div>
+>>>>>>> 549717c368bc6d7924335f3c73c8f87793eb7e54
     );
   }
 }
