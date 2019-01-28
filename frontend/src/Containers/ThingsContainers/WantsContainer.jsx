@@ -22,6 +22,25 @@ class WantsContainer extends Component {
     ];
 
     return (
+<<<<<<< HEAD
+      <main>
+        <div className="box lists">
+          <label className="title">Borrowing</label>
+          <ul>
+            {wants.map((value, index) => {
+              return <li key={index}>{value}</li>;
+            })}
+          </ul>
+          <div>
+            <form>
+              <label className="search-bar">Search:</label><input placeholder="what do you want?"></input>
+              <br />
+              <button>Want Now</button>
+            </form>
+          </div>
+        </div>
+      </main>
+=======
       <div className="box lists">
         <label className="title">Borrowing</label>
         <ul>
@@ -30,6 +49,7 @@ class WantsContainer extends Component {
           })}
         </ul>
       </div>
+>>>>>>> 549717c368bc6d7924335f3c73c8f87793eb7e54
     );
   }
 }

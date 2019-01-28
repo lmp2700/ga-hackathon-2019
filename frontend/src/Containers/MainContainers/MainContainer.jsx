@@ -3,7 +3,6 @@ import NavigationContainer from "./NavigationContainer";
 import HavesContainer from "../ThingsContainers/HavesContainer";
 import WantsContainer from "../ThingsContainers/WantsContainer";
 import UserEditContainer from "../UserContainers/UserEdit";
-import ChatContainer from '../ChatContainer/ChatContainer'
 
 class MainContainer extends Component {
   render() {
@@ -13,7 +12,6 @@ class MainContainer extends Component {
           <UserEditContainer />
           <HavesContainer />
           <WantsContainer />
-          <ChatContainer />
           <NavigationContainer />
         </div>
       </main>
