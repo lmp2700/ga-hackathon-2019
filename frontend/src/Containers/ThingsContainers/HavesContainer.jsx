@@ -12,14 +12,23 @@ class HavesContainer extends Component {
     const haves = ["Pasta Maker", "Pitchfork", "Snowshoes", "Movie Projector"];
 
     return (
-      <div className="box lists">
-        <label className="title">Lending</label>
-        <ul>
-          {haves.map((value, index) => {
-            return <li key={index}>{value}</li>;
-          })}
-        </ul>
-      </div>
+      <main>
+        <div className="box lists">
+          <label className="title">Lending</label>
+          <ul>
+            {haves.map((value, index) => {
+              return <li key={index}>{value}</li>;
+            })}
+          </ul>
+          <div>
+            <form>
+              <label className="search-bar">Search:</label><input placeholder="what do you have?"></input>
+              <br />
+              <button>I Have</button>
+            </form>
+          </div>
+        </div>
+      </main>
     );
   }
 }

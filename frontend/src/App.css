@@ -38,6 +38,12 @@
   display: center;
 }
 
+.lots-logo {
+  display: left;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .chat {
   grid-area: sidebar;
   position: relative;
